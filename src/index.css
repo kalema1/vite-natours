@@ -1,4 +1,8 @@
 :root {
+  --bgColor-green-light: #20bf6b;
+  --bgColor: #e0e0e0;
+  --color-white: #fff;
+  --bgColor-main: #f7f7f7;
 }
 
 * {
@@ -9,4 +13,9 @@
 
 html {
   font-size: 62.5%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
 }
