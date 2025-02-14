@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import styles from "./Header.module.css";
 
 export default function Header() {
   return (
@@ -6,7 +7,7 @@ export default function Header() {
       <div>
         <div>
           <div>logo</div>
-          <nav>
+          <nav className={styles.nav}>
             <ul>
               <li>
                 <NavLink to="/">Home</NavLink>
